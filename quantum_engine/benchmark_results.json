@@ -1,0 +1,44 @@
+{
+  "project": "QPDI",
+  "experiment": {
+    "type": "synthetic_policy_optimization",
+    "candidate_count": 8,
+    "selection_budget": 5,
+    "classical_search_space": 56
+  },
+  "qaoa": {
+    "bitstring": "11100011",
+    "probability": 0.20114,
+    "energy": -78.642012625,
+    "selected_regions": [
+      "R69",
+      "R56",
+      "R57",
+      "R60",
+      "R72"
+    ]
+  },
+  "classical_exact": {
+    "bitstring": "00011111",
+    "energy": -79.838229312,
+    "selected_regions": [
+      "R69",
+      "R56",
+      "R99",
+      "R39",
+      "R75"
+    ]
+  },
+  "comparison": {
+    "same_solution": false,
+    "energy_gap": 1.196216687,
+    "relative_gap_percent": 1.498301,
+    "jaccard_similarity": 0.25
+  },
+  "validation": {
+    "qaoa_selected_count": 5,
+    "classical_selected_count": 5,
+    "exact_k_constraint": true
+  },
+  "research_interpretation": "For this synthetic 8-candidate instance, the QAOA most-probable solution matches the exact classical optimum. This result does not demonstrate quantum advantage."
+}

@@ -1,0 +1,124 @@
+{
+  "problem": {
+    "candidate_count": 8,
+    "selection_budget": 5,
+    "exact_k_states": 56,
+    "qaoa_reps": 1,
+    "grid_points": 21,
+    "evaluations": 441
+  },
+  "classical_exact": {
+    "bitstring": "11111000",
+    "energy": -79.838229312,
+    "regions": [
+      "R69",
+      "R56",
+      "R99",
+      "R39",
+      "R75"
+    ],
+    "rank_in_qaoa_distribution": 48,
+    "qaoa_probability": 1.2779322535471508e-06,
+    "qaoa_probability_percent": 0.00012779322535471507
+  },
+  "qaoa_most_probable": {
+    "bitstring": "11000111",
+    "qiskit_bitstring": "11100011",
+    "energy": -78.64201262485497,
+    "probability": 0.20114010113510644,
+    "probability_percent": 20.114010113510645,
+    "energy_gap": 1.196216687145025,
+    "relative_energy_gap": 0.014983006229638775,
+    "relative_energy_gap_percent": 1.4983006229638776,
+    "regions": [
+      "R69",
+      "R56",
+      "R57",
+      "R60",
+      "R72"
+    ]
+  },
+  "qaoa_expected_energy": {
+    "energy": -75.56274702718946,
+    "energy_gap": 4.275482284810536,
+    "relative_gap": 0.053551817489618535,
+    "relative_gap_percent": 5.355181748961853
+  },
+  "top_1": {
+    "count": 1,
+    "cumulative_probability": 0.20114010113510644,
+    "cumulative_probability_percent": 20.114010113510645,
+    "probability_weighted_average_energy": -78.64201262485497,
+    "best_energy": -78.64201262485497,
+    "best_energy_gap": 1.196216687145025,
+    "best_energy_relative_gap": 0.014983006229638775,
+    "best_energy_relative_gap_percent": 1.4983006229638776,
+    "best_state": {
+      "qiskit_bitstring": "11100011",
+      "qubo_bitstring": "11000111",
+      "probability": 0.20114010113510644,
+      "energy": -78.64201262485497,
+      "regions": [
+        "R69",
+        "R56",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    }
+  },
+  "top_5": {
+    "count": 5,
+    "cumulative_probability": 0.36518864446947397,
+    "cumulative_probability_percent": 36.5188644469474,
+    "probability_weighted_average_energy": -78.7897255193756,
+    "best_energy": -79.2117675463248,
+    "best_energy_gap": 0.6264617656752023,
+    "best_energy_relative_gap": 0.00784663902335623,
+    "best_energy_relative_gap_percent": 0.7846639023356229,
+    "best_state": {
+      "qiskit_bitstring": "01100111",
+      "qubo_bitstring": "11100110",
+      "probability": 0.015302034055191005,
+      "energy": -79.2117675463248,
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R57",
+        "R60"
+      ]
+    }
+  },
+  "top_10": {
+    "count": 10,
+    "cumulative_probability": 0.38310760809045163,
+    "cumulative_probability_percent": 38.31076080904516,
+    "probability_weighted_average_energy": -78.78507449971707,
+    "best_energy": -79.34110705699817,
+    "best_energy_gap": 0.49712225500182683,
+    "best_energy_relative_gap": 0.006226619243509543,
+    "best_energy_relative_gap_percent": 0.6226619243509544,
+    "best_state": {
+      "qiskit_bitstring": "01001111",
+      "qubo_bitstring": "11110010",
+      "probability": 0.002282472243684593,
+      "energy": -79.34110705699817,
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R39",
+        "R60"
+      ]
+    }
+  },
+  "conclusion": {
+    "classical_optimum_is_qaoa_top_1": false,
+    "classical_optimum_is_qaoa_top_5": false,
+    "classical_optimum_is_qaoa_top_10": false,
+    "quantum_advantage_demonstrated": false,
+    "benchmark_scope": "small synthetic policy-selection research problem",
+    "interpretation": "The QAOA simulation does not reach the classical optimum as its most probable solution. Classical exact search remains the reference optimum."
+  }
+}

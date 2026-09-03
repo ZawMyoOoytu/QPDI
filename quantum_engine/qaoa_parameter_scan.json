@@ -1,0 +1,90 @@
+{
+  "experiment": {
+    "name": "QPDI QAOA Parameter Sensitivity Scan",
+    "candidate_count": 8,
+    "selection_budget": 5,
+    "qaoa_reps": 1,
+    "grid_points": 41,
+    "evaluations": 1681,
+    "gamma_endpoint_excluded": true,
+    "gamma_range": [
+      0.0,
+      6.283185307179586
+    ],
+    "beta_range": [
+      0.0,
+      3.141592653589793
+    ]
+  },
+  "best_parameters": {
+    "gamma": 1.992229487642308,
+    "beta": 1.8849555921538759,
+    "expected_energy": -76.24665749449083
+  },
+  "classical_reference": {
+    "optimal_energy": -79.83822931152248
+  },
+  "quality": {
+    "energy_gap": 3.5915718170316495,
+    "relative_gap": 0.044985614636036314,
+    "relative_gap_percent": 4.4985614636036315
+  },
+  "boundary_analysis": {
+    "gamma_near_zero": false,
+    "gamma_near_two_pi": false,
+    "beta_at_boundary": false,
+    "boundary_warning": false
+  },
+  "top_10_parameter_points": [
+    {
+      "gamma": 1.992229487642308,
+      "beta": 1.8849555921538759,
+      "expected_energy": -76.24665749449083
+    },
+    {
+      "gamma": 1.992229487642308,
+      "beta": 1.9634954084936207,
+      "expected_energy": -76.13000704301021
+    },
+    {
+      "gamma": 1.992229487642308,
+      "beta": 1.806415775814131,
+      "expected_energy": -75.59788659104576
+    },
+    {
+      "gamma": 1.992229487642308,
+      "beta": 2.0420352248333655,
+      "expected_energy": -75.35608099274694
+    },
+    {
+      "gamma": 3.218216864652959,
+      "beta": 1.0995574287564276,
+      "expected_energy": -74.84986153691848
+    },
+    {
+      "gamma": 1.0727389548843198,
+      "beta": 0.23561944901923448,
+      "expected_energy": -74.7429493238403
+    },
+    {
+      "gamma": 3.218216864652959,
+      "beta": 1.0210176124166828,
+      "expected_energy": -74.72988645114997
+    },
+    {
+      "gamma": 3.218216864652959,
+      "beta": 1.1780972450961724,
+      "expected_energy": -74.60702443126358
+    },
+    {
+      "gamma": 4.1377073974109475,
+      "beta": 2.4347343065320897,
+      "expected_energy": -74.58265659767855
+    },
+    {
+      "gamma": 4.1377073974109475,
+      "beta": 2.5132741228718345,
+      "expected_energy": -74.51416170376386
+    }
+  ]
+}

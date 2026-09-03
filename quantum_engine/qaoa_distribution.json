@@ -1,0 +1,1558 @@
+{
+  "experiment": {
+    "name": "QPDI QAOA Full Distribution",
+    "candidate_count": 8,
+    "selection_budget": 5,
+    "qaoa_reps": 1,
+    "grid_points": 21,
+    "evaluations": 441,
+    "valid_exact_k_states": 56,
+    "bitstring_convention": "Qiskit display bitstring is reversed once before QUBO variable mapping."
+  },
+  "qaoa_parameters": {
+    "gamma": 6.283185307179586,
+    "beta": 2.356194490192345,
+    "expected_qubo_energy": -75.56274702718946
+  },
+  "classical_optimum": {
+    "qiskit_bitstring": "00011111",
+    "qubo_bitstring": "11111000",
+    "energy": -79.838229312,
+    "regions": [
+      "R69",
+      "R56",
+      "R99",
+      "R39",
+      "R75"
+    ],
+    "rank_in_qaoa_valid_distribution": 48,
+    "probability": 1.2779322535471508e-06,
+    "percentage": 0.00012779322535471507
+  },
+  "probability_summary": {
+    "top_1_probability": 0.20114010113510644,
+    "top_5_probability": 0.36518864446947397,
+    "top_10_probability": 0.38310760809045163,
+    "all_exact_k_probability": 0.3922433065724455
+  },
+  "top_1": [
+    {
+      "qiskit_bitstring": "11100011",
+      "qubo_bitstring": "11000111",
+      "probability": 0.20114010113510644,
+      "energy": -78.64201262485497,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    }
+  ],
+  "top_5": [
+    {
+      "qiskit_bitstring": "11100011",
+      "qubo_bitstring": "11000111",
+      "probability": 0.20114010113510644,
+      "energy": -78.64201262485497,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11000111",
+      "qubo_bitstring": "11100011",
+      "probability": 0.10705114373480076,
+      "energy": -79.07367705501784,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11001011",
+      "qubo_bitstring": "11010011",
+      "probability": 0.030002331472856792,
+      "energy": -78.77135213552835,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01100111",
+      "qubo_bitstring": "11100110",
+      "probability": 0.015302034055191005,
+      "energy": -79.2117675463248,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11100110",
+      "qubo_bitstring": "01100111",
+      "probability": 0.011693034071518936,
+      "energy": -78.22586782519406,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    }
+  ],
+  "top_10": [
+    {
+      "qiskit_bitstring": "11100011",
+      "qubo_bitstring": "11000111",
+      "probability": 0.20114010113510644,
+      "energy": -78.64201262485497,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11000111",
+      "qubo_bitstring": "11100011",
+      "probability": 0.10705114373480076,
+      "energy": -79.07367705501784,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11001011",
+      "qubo_bitstring": "11010011",
+      "probability": 0.030002331472856792,
+      "energy": -78.77135213552835,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01100111",
+      "qubo_bitstring": "11100110",
+      "probability": 0.015302034055191005,
+      "energy": -79.2117675463248,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11100110",
+      "qubo_bitstring": "01100111",
+      "probability": 0.011693034071518936,
+      "energy": -78.22586782519406,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11010011",
+      "qubo_bitstring": "11001011",
+      "probability": 0.005714073861959644,
+      "energy": -78.83221519041186,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01101011",
+      "qubo_bitstring": "11010110",
+      "probability": 0.004288573497823668,
+      "energy": -78.9094426268353,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11101010",
+      "qubo_bitstring": "01010111",
+      "probability": 0.003277109163879699,
+      "energy": -77.92354290570456,
+      "selected_count": 5,
+      "indices": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R39",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11100101",
+      "qubo_bitstring": "10100111",
+      "probability": 0.0023567348536300834,
+      "energy": -78.3832377795735,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01001111",
+      "qubo_bitstring": "11110010",
+      "probability": 0.002282472243684593,
+      "energy": -79.34110705699817,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R39",
+        "R60"
+      ]
+    }
+  ],
+  "all_valid_states": [
+    {
+      "qiskit_bitstring": "11100011",
+      "qubo_bitstring": "11000111",
+      "probability": 0.20114010113510644,
+      "energy": -78.64201262485497,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11000111",
+      "qubo_bitstring": "11100011",
+      "probability": 0.10705114373480076,
+      "energy": -79.07367705501784,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11001011",
+      "qubo_bitstring": "11010011",
+      "probability": 0.030002331472856792,
+      "energy": -78.77135213552835,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01100111",
+      "qubo_bitstring": "11100110",
+      "probability": 0.015302034055191005,
+      "energy": -79.2117675463248,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11100110",
+      "qubo_bitstring": "01100111",
+      "probability": 0.011693034071518936,
+      "energy": -78.22586782519406,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11010011",
+      "qubo_bitstring": "11001011",
+      "probability": 0.005714073861959644,
+      "energy": -78.83221519041186,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01101011",
+      "qubo_bitstring": "11010110",
+      "probability": 0.004288573497823668,
+      "energy": -78.9094426268353,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11101010",
+      "qubo_bitstring": "01010111",
+      "probability": 0.003277109163879699,
+      "energy": -77.92354290570456,
+      "selected_count": 5,
+      "indices": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R39",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11100101",
+      "qubo_bitstring": "10100111",
+      "probability": 0.0023567348536300834,
+      "energy": -78.3832377795735,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01001111",
+      "qubo_bitstring": "11110010",
+      "probability": 0.002282472243684593,
+      "energy": -79.34110705699817,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R39",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10100111",
+      "qubo_bitstring": "11100101",
+      "probability": 0.0021098250885008807,
+      "energy": -79.38059674398527,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11001110",
+      "qubo_bitstring": "01110011",
+      "probability": 0.001744148890038953,
+      "energy": -78.35520733586743,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R39",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01110011",
+      "qubo_bitstring": "11001110",
+      "probability": 0.0008167773811570867,
+      "energy": -78.97030568171881,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R75",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11101001",
+      "qubo_bitstring": "10010111",
+      "probability": 0.0006605024272081442,
+      "energy": -78.080912860084,
+      "selected_count": 5,
+      "indices": [
+        0,
+        3,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R39",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11110010",
+      "qubo_bitstring": "01001111",
+      "probability": 0.0006241396217175583,
+      "energy": -77.98440596058808,
+      "selected_count": 5,
+      "indices": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R75",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10101011",
+      "qubo_bitstring": "11010101",
+      "probability": 0.0005913030860442472,
+      "energy": -79.07827182449577,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01010111",
+      "qubo_bitstring": "11101010",
+      "probability": 0.0004347067160459105,
+      "energy": -79.40197011188168,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R75",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11001101",
+      "qubo_bitstring": "10110011",
+      "probability": 0.000351533781047235,
+      "energy": -78.51257729024688,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R39",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11010110",
+      "qubo_bitstring": "01101011",
+      "probability": 0.0003321807037880802,
+      "energy": -78.41607039075095,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10001111",
+      "qubo_bitstring": "11110001",
+      "probability": 0.000314704384146814,
+      "energy": -79.50993625465864,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R39",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01101110",
+      "qubo_bitstring": "01110110",
+      "probability": 0.00024931098147645033,
+      "energy": -78.49329782717439,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R39",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11110001",
+      "qubo_bitstring": "10001111",
+      "probability": 0.00012579554553903926,
+      "energy": -78.14177591496751,
+      "selected_count": 5,
+      "indices": [
+        0,
+        4,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R75",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01011011",
+      "qubo_bitstring": "11011010",
+      "probability": 0.00012183162676519194,
+      "energy": -79.09964519239219,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R75",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10110011",
+      "qubo_bitstring": "11001101",
+      "probability": 0.00011261623155914825,
+      "energy": -79.13913487937928,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R75",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11011010",
+      "qubo_bitstring": "01011011",
+      "probability": 9.309751616132159e-05,
+      "energy": -78.11374547126145,
+      "selected_count": 5,
+      "indices": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R39",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11010101",
+      "qubo_bitstring": "10101011",
+      "probability": 6.695112983786919e-05,
+      "energy": -78.5734403451304,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10010111",
+      "qubo_bitstring": "11101001",
+      "probability": 5.9936811821586263e-05,
+      "energy": -79.57079930954215,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R75",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01101101",
+      "qubo_bitstring": "10110110",
+      "probability": 5.024871011617201e-05,
+      "energy": -78.65066778155384,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        3,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R39",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01110110",
+      "qubo_bitstring": "01101110",
+      "probability": 4.748235529771866e-05,
+      "energy": -78.5541608820579,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R75",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "00101111",
+      "qubo_bitstring": "11110100",
+      "probability": 4.4984266730139076e-05,
+      "energy": -79.6480267459656,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R39",
+        "R57"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11101100",
+      "qubo_bitstring": "00110111",
+      "probability": 3.8397501751671704e-05,
+      "energy": -77.6647680604231,
+      "selected_count": 5,
+      "indices": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R99",
+        "R39",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10101110",
+      "qubo_bitstring": "01110101",
+      "probability": 3.437468258537913e-05,
+      "energy": -78.66212702483486,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R39",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11011001",
+      "qubo_bitstring": "10011011",
+      "probability": 1.876383492785129e-05,
+      "energy": -78.27111542564089,
+      "selected_count": 5,
+      "indices": [
+        0,
+        3,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R39",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10011011",
+      "qubo_bitstring": "11011001",
+      "probability": 1.679799050210929e-05,
+      "energy": -79.26847439005266,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R75",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01111010",
+      "qubo_bitstring": "01011110",
+      "probability": 1.330748381617446e-05,
+      "energy": -78.2518359625684,
+      "selected_count": 5,
+      "indices": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "regions": [
+        "R56",
+        "R39",
+        "R75",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01110101",
+      "qubo_bitstring": "10101110",
+      "probability": 9.570084289341557e-06,
+      "energy": -78.71153083643735,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        4,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R75",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "00110111",
+      "qubo_bitstring": "11101100",
+      "probability": 8.567448264967318e-06,
+      "energy": -79.70888980084911,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R75",
+        "R57"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11110100",
+      "qubo_bitstring": "00101111",
+      "probability": 7.312970371064426e-06,
+      "energy": -77.72563111530661,
+      "selected_count": 5,
+      "indices": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R99",
+        "R75",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01011110",
+      "qubo_bitstring": "01111010",
+      "probability": 7.0825327953734145e-06,
+      "energy": -78.68350039273128,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R39",
+        "R75",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10101101",
+      "qubo_bitstring": "10110101",
+      "probability": 6.928228553505939e-06,
+      "energy": -78.8194969792143,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        3,
+        5,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R39",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10110110",
+      "qubo_bitstring": "01101101",
+      "probability": 6.546807052379352e-06,
+      "energy": -78.72299007971837,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R75",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01111001",
+      "qubo_bitstring": "10011110",
+      "probability": 2.682127729372272e-06,
+      "energy": -78.40920591694784,
+      "selected_count": 5,
+      "indices": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R39",
+        "R75",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "00111011",
+      "qubo_bitstring": "11011100",
+      "probability": 2.4011272906974853e-06,
+      "energy": -79.40656488135961,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R39",
+        "R75",
+        "R57"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11111000",
+      "qubo_bitstring": "00011111",
+      "probability": 2.0495452310812486e-06,
+      "energy": -77.4233061958171,
+      "selected_count": 5,
+      "indices": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R39",
+        "R75",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10111010",
+      "qubo_bitstring": "01011101",
+      "probability": 1.8348190259477088e-06,
+      "energy": -78.42066516022888,
+      "selected_count": 5,
+      "indices": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R39",
+        "R75",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01011101",
+      "qubo_bitstring": "10111010",
+      "probability": 1.4274868087053306e-06,
+      "energy": -78.84087034711072,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R39",
+        "R75",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10110101",
+      "qubo_bitstring": "10101101",
+      "probability": 1.319511109431348e-06,
+      "energy": -78.88036003409782,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        4,
+        5,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R75",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "00011111",
+      "qubo_bitstring": "11111000",
+      "probability": 1.2779322535471508e-06,
+      "energy": -79.83822931152248,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R99",
+        "R39",
+        "R75"
+      ]
+    },
+    {
+      "qiskit_bitstring": "11011100",
+      "qubo_bitstring": "00111011",
+      "probability": 1.0908126220765828e-06,
+      "energy": -77.85497062597999,
+      "selected_count": 5,
+      "indices": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "regions": [
+        "R99",
+        "R39",
+        "R75",
+        "R60",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10011110",
+      "qubo_bitstring": "01111001",
+      "probability": 9.7653065781417e-07,
+      "energy": -78.85232959039175,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R39",
+        "R75",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10111001",
+      "qubo_bitstring": "10011101",
+      "probability": 3.6980837668988746e-07,
+      "energy": -78.57803511460831,
+      "selected_count": 5,
+      "indices": [
+        0,
+        3,
+        4,
+        5,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R39",
+        "R75",
+        "R57",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10011101",
+      "qubo_bitstring": "10111001",
+      "probability": 1.968200744842511e-07,
+      "energy": -79.0096995447712,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R39",
+        "R75",
+        "R72"
+      ]
+    },
+    {
+      "qiskit_bitstring": "01111100",
+      "qubo_bitstring": "00111110",
+      "probability": 1.559222191235374e-07,
+      "energy": -77.99306111728694,
+      "selected_count": 5,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "regions": [
+        "R99",
+        "R39",
+        "R75",
+        "R57",
+        "R60"
+      ]
+    },
+    {
+      "qiskit_bitstring": "00111110",
+      "qubo_bitstring": "01111100",
+      "probability": 1.3958660188485882e-07,
+      "energy": -78.9904200816987,
+      "selected_count": 5,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": [
+        "R56",
+        "R99",
+        "R39",
+        "R75",
+        "R57"
+      ]
+    },
+    {
+      "qiskit_bitstring": "00111101",
+      "qubo_bitstring": "10111100",
+      "probability": 2.813372540842349e-08,
+      "energy": -79.14779003607815,
+      "selected_count": 5,
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "regions": [
+        "R69",
+        "R99",
+        "R39",
+        "R75",
+        "R57"
+      ]
+    },
+    {
+      "qiskit_bitstring": "10111100",
+      "qubo_bitstring": "00111101",
+      "probability": 2.1498358229477302e-08,
+      "energy": -78.16189031494741,
+      "selected_count": 5,
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "regions": [
+        "R99",
+        "R39",
+        "R75",
+        "R57",
+        "R72"
+      ]
+    }
+  ]
+}

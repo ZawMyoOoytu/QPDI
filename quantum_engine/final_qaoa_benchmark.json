@@ -1,0 +1,73 @@
+{
+  "experiment": {
+    "name": "QPDI Final QAOA Benchmark",
+    "type": "synthetic_policy_optimization",
+    "candidate_count": 8,
+    "selection_budget": 5,
+    "classical_combinations": 56,
+    "qaoa_reps": 1,
+    "grid_points": 21,
+    "qaoa_evaluations": 441,
+    "bitstring_convention": "Qiskit display bitstring is reversed once before QUBO variable mapping."
+  },
+  "classical_exact": {
+    "qiskit_bitstring": "00011111",
+    "qubo_bitstring": "11111000",
+    "energy": -79.838229312,
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "regions": [
+      "R69",
+      "R56",
+      "R99",
+      "R39",
+      "R75"
+    ]
+  },
+  "qaoa": {
+    "gamma": 6.283185307,
+    "beta": 2.35619449,
+    "expected_energy": -75.562747027,
+    "expected_energy_gap": 4.275482284,
+    "expected_relative_gap_percent": 5.355182,
+    "most_probable_valid_state": {
+      "qiskit_bitstring": "11100011",
+      "qubo_bitstring": "11000111",
+      "probability": 0.20114010113510644,
+      "energy": -78.64201262485497,
+      "selected_count": 5,
+      "indices": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "regions": [
+        "R69",
+        "R56",
+        "R57",
+        "R60",
+        "R72"
+      ]
+    }
+  },
+  "optimum_probability": {
+    "classical_optimum_qiskit_bitstring": "00011111",
+    "probability": 1.278e-06,
+    "percentage": 0.000128,
+    "present_in_distribution": true
+  },
+  "comparison": {
+    "same_solution": false,
+    "energy_gap": 1.196216687,
+    "relative_gap_percent": 1.498301,
+    "jaccard_similarity": 0.25
+  },
+  "interpretation": "This experiment compares depth-1 QAOA simulation against exhaustive classical optimization for a small synthetic 8-variable policy-selection problem. The result is a research demonstration and does not demonstrate quantum advantage."
+}
